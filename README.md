@@ -1,2 +1,3 @@
 # Bundesliga_predictor
-Prediction project for Bundesliga matches
+
+In this project, I tried to build a tool to predict the outcome of the 2025/2026 Bundesliga season. I used the random forest algorithm to predict the most probable positioning of each team, based on their results the season before. I used data from several previous seasons such as Points, Wins, Losses, Draws, Goals For, Goals Against... The model then predicts positions for the 2025/2026 Bundesliga season using the standings and stats from the 2024/2025 Bundesliga season. Looking at the data historically, it bases its prediction by saying: 'If a team had these kinds of stats in season $N$, where did it rank in season $N+1$? 
